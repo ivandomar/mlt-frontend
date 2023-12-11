@@ -1,8 +1,31 @@
-# React + Vite
+# mlt-frontend
+Aplicação frontend do meu MVP da sprint de Engenharia de Sistemas Inteligentes da minha pós-graduação 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
+## Como executar 
 
-Currently, two official plugins are available:
+1. Instalar dependências (as mesmas estão descritas no arquivo `package.json`).
+```
+$ npm install
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. Provisionar as variáveis de ambiente
+```
+|   Variável        |   Descrição   |   Observações                                             |
+|   -------------   |   --------    |   -----------------------------------------------------   |
+|   VITE_API_URL    |   URL da API  |   A URL deve estar completa (i.e. http://localhost:5000)  |
+```
+>*Para provisionar essas variáveis, deve-se copiar o arquivo `.env.example` na raiz do projeto, alterá-lo para apenas `.env` e alimetá-lo com os valores desejados*
+
+3. Disponibilizar a aplicação
+- em modo desenvolvedor
+```
+$ npm run dev
+```
+
+- build de produção
+```
+$ npm run build && npm run preview
+```
+
+> **A aplicação fica acessível pelo navegador acessando http://localhost:5173 (em desenvolvimento) ou http://127.0.0.1:4173 (em preview)**
