@@ -50,27 +50,27 @@ function App() {
   };
 
   const educationSliderMarks = [
-    {label: 'e', value: 0},
-    {label: 'm', value: 1},
-    {label: 'r', value: 2},
-    {label: 'y', value: 3},
-    {label: 'u', value: 4},
+    {label: 'None', value: 0},
+    {label: 'Fundamental I', value: 1},
+    {label: 'Fundamental II', value: 2},
+    {label: 'High School', value: 3},
+    {label: 'College', value: 4},
   ];
 
   const qualitativeSliderMarks = [
-    {label: '', value: 1},
-    {label: '', value: 2},
-    {label: '', value: 3},
-    {label: '', value: 4},
-    {label: '', value: 5},
+    {label: 'Very poor', value: 1},
+    {label: 'Poor', value: 2},
+    {label: 'Regular', value: 3},
+    {label: 'Good', value: 4},
+    {label: 'Very good', value: 5},
   ];
   
   const ammounteSliderMarks = [
-    {label: '', value: 1},
-    {label: '', value: 2},
-    {label: '', value: 3},
-    {label: '', value: 4},
-    {label: '', value: 5},
+    {label: 'Very low', value: 1},
+    {label: 'Low', value: 2},
+    {label: 'Regular', value: 3},
+    {label: 'High', value: 4},
+    {label: 'Very High', value: 5},
   ];
 
   return (
