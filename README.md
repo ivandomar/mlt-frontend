@@ -1,31 +1,31 @@
 # mlt-frontend
-Aplicação frontend do meu MVP da sprint de Engenharia de Sistemas Inteligentes da minha pós-graduação 
+Frontend app for socially vulnerable teenager's academic performance.
 
 ---
-## Como executar 
+## Setup
 
-1. Instalar dependências (as mesmas estão descritas no arquivo `package.json`).
+1. Install deps (as described in `package.json`).
 ```
 $ npm install
 ```
 
-2. Provisionar as variáveis de ambiente
+2. Set environmental variables
 ```
-|   Variável        |   Descrição   |   Observações                                             |
-|   -------------   |   --------    |   -----------------------------------------------------   |
-|   VITE_API_URL    |   URL da API  |   A URL deve estar completa (i.e. http://localhost:5000)  |
+|   Variable        |   Description   |   Details                                                   |
+|   -------------   |   ----------    |   -------------------------------------------------------   |
+|   VITE_API_URL    |   API URL       |   Must be a full absolute URL (i.e. http://localhost:5000)  |
 ```
->*Para provisionar essas variáveis, deve-se copiar o arquivo `.env.example` na raiz do projeto, alterá-lo para apenas `.env` e alimetá-lo com os valores desejados*
+>*You could copy `.env.example` file in the project root folder to a `.env` named file in the same folder to fill the values*
 
-3. Disponibilizar a aplicação
-- em modo desenvolvedor
+3. Run
+- developer mode
 ```
 $ npm run dev
 ```
 
-- build de produção
+- production build
 ```
 $ npm run build && npm run preview
 ```
 
-> **A aplicação fica acessível pelo navegador acessando http://localhost:5173 (em desenvolvimento) ou http://127.0.0.1:4173 (em preview)**
+> **App will be available through web browser at http://localhost:5173 (dev mode) or http://127.0.0.1:4173 (production preview)**
