@@ -1,5 +1,5 @@
 # mlt-frontend
-Frontend app for socially vulnerable teenager's academic performance.
+Frontend app for socially vulnerable teenager's academic performance prediction.
 
 ---
 ## Setup
